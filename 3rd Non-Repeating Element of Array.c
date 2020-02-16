@@ -1,4 +1,4 @@
-#include<stdio.h>// Inclusion of Header File
+#include<stdio.h>// Inclusion of Header File.
 void main()
 {
 int n,z=1;
