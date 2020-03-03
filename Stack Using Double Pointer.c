@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include<stdio.h>  //inclusion of header Files
 #include<stdlib.h>
-typedef struct node
+typedef struct node  //Defining Structure
 {
     int info;
     struct node_type *next;
 }node_type;
-void PUSH(node_type **tp)
+
+void PUSH(node_type **tp)  //Defining Function PUSH
 {
     node_type *p;
     int n;
@@ -23,7 +24,8 @@ void PUSH(node_type **tp)
         *tp=p;
     }
 }
-void POP(node_type **tp)
+
+void POP(node_type **tp)  //Defining Function POP
 {
     if(*tp==NULL)
     {
@@ -38,7 +40,7 @@ void POP(node_type **tp)
        free(temp);
     }
 }
-void Display(node_type *top)
+void Display(node_type *top) //Defining Function Display
 {
 while(top!=NULL)
 {
@@ -51,8 +53,6 @@ void main()
     char ch;
     int n;
     node_type *top=NULL;
-
-
 
     do
     {
