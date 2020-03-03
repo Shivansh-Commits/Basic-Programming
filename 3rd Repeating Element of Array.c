@@ -29,12 +29,10 @@ for(i=0;i<=n;i++)
     if(a[i]!=x&&c>1)
     {
         if(z==3)
-     printf("'%d' is the %drd Repeating Element",a[i],z);
+     printf("'%d' is the %drd Repeating Element of the Array",a[i],z);
      printf("\n");
      z++;
     }
     c=1;
 }
-
-
 }
