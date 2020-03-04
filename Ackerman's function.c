@@ -1,5 +1,4 @@
 #include<stdio.h> //Inclusion of Header File.
-
 int a(int m,int n)
 {
     if(m==0)
